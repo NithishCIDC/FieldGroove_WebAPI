@@ -1,0 +1,6 @@
+@FieldGroove.Api_HostAddress = http://localhost:5160
+
+GET {{FieldGroove.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FieldGroove.Api", "FieldGroove.Api\FieldGroove.Api.csproj", "{06FAB717-6575-441C-94F5-53F4B99109B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FieldGrooveApi.Test", "FieldGrooveApi.Test\FieldGrooveApi.Test.csproj", "{40D97284-68EA-47A9-9BEA-1B436E437814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06FAB717-6575-441C-94F5-53F4B99109B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06FAB717-6575-441C-94F5-53F4B99109B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06FAB717-6575-441C-94F5-53F4B99109B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06FAB717-6575-441C-94F5-53F4B99109B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D97284-68EA-47A9-9BEA-1B436E437814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D97284-68EA-47A9-9BEA-1B436E437814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D97284-68EA-47A9-9BEA-1B436E437814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D97284-68EA-47A9-9BEA-1B436E437814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9241194-6315-4317-AE62-AB94AD9B999C}
+	EndGlobalSection
+EndGlobal
