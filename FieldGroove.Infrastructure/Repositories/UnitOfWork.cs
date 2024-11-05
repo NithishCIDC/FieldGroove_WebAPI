@@ -1,23 +1,12 @@
 ﻿using FieldGroove.Infrastructure.Data;
-using FieldGroove.Application.Interfaces;
+using FieldGroove.Domain.Interfaces;
 
-namespace FieldGroove.Api.Repositories
+namespace FieldGroove.Infrastructure.Repositories
 {
-    public class UnitOfWork : IUnitOfWork
+    public class UnitOfWork(ApplicationDbContext dbContext) : IUnitOfWork
     {
-        private readonly ApplicationDbContext dbContext;
+        public IUserRepository UserRepository { get; private set; } = new UserRepository(dbContext);
 
-        public UnitOfWork(ApplicationDbContext dbContext)
-        {
-            this.dbContext = dbContext;
-
-            UserRepository = new UserRepository(dbContext);
-
-            LeadsRepository = new LeadsRepository(dbContext);
-
-        }
-        public IUserRepository UserRepository { get; private set; }
-
-        public ILeadsRepository LeadsRepository { get; private set; }
+        public ILeadsRepository LeadsRepository { get; private set; } = new LeadsRepository(dbContext);
     }
 }

@@ -1,9 +1,9 @@
 ﻿using FieldGroove.Infrastructure.Data;
-using FieldGroove.Application.Interfaces;
 using FieldGroove.Domain.Models;
 using Microsoft.EntityFrameworkCore;
+using FieldGroove.Domain.Interfaces;
 
-namespace FieldGroove.Api.Repositories
+namespace FieldGroove.Infrastructure.Repositories
 {
     public class UserRepository(ApplicationDbContext dbContext) : IUserRepository
     {

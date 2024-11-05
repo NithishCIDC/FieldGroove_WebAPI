@@ -1,12 +1,12 @@
-﻿using FieldGroove.Application.Interfaces;
-using FieldGroove.Domain.Models;
+﻿using FieldGroove.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
 using Microsoft.AspNetCore.Authorization;
+using FieldGroove.Domain.Interfaces;
 
 namespace FieldGroove.Api.Controllers
 {
-	[Authorize]
+    [Authorize]
 	[Route("api/[controller]")]
 	[ApiController]
 	public class HomeController(IUnitOfWork unitOfWork) : ControllerBase
@@ -46,8 +46,8 @@ namespace FieldGroove.Api.Controllers
 		{
 			if (ModelState.IsValid)
 			{
-				await unitOfWork.LeadsRepository.Create(model);
-				return Ok();
+				bool response = await unitOfWork.LeadsRepository.Create(model);
+				if (response) return Ok();
 			}
 			return BadRequest();
 		}

@@ -1,4 +1,4 @@
-﻿namespace FieldGroove.Application.Interfaces
+﻿namespace FieldGroove.Domain.Interfaces
 {
     public interface IUnitOfWork
     {

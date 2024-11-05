@@ -1,6 +1,6 @@
 ﻿using FieldGroove.Domain.Models;
 
-namespace FieldGroove.Application.Interfaces
+namespace FieldGroove.Domain.Interfaces
 {
     public interface ILeadsRepository
     {

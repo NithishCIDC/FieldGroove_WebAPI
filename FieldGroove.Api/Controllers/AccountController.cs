@@ -1,11 +1,11 @@
-﻿using FieldGroove.Application.Interfaces;
-using FieldGroove.Api.JwtAuthToken;
+﻿using FieldGroove.Api.JwtAuthToken;
 using FieldGroove.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
+using FieldGroove.Domain.Interfaces;
 
 namespace FieldGroove.Api.Controllers
 {
-	[Route("api/[controller]")]
+    [Route("api/[controller]")]
 	[ApiController]
 	public class AccountController : ControllerBase
 	{

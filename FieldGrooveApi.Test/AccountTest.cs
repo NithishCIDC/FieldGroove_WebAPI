@@ -1,9 +1,9 @@
-using FieldGroove.Application.Interfaces;
 using FieldGroove.Domain.Models;
 using FluentValidation.TestHelper;
 using Microsoft.Extensions.Configuration;
 using Moq;
 using FieldGroove.Application.validation;
+using FieldGroove.Domain.Interfaces;
 
 
 namespace FieldGrooveApi.Test
