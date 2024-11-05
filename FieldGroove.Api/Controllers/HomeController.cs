@@ -1,8 +1,8 @@
-﻿using FieldGroove.Domain.Models;
+﻿using FieldGroove.Application.Interfaces;
+using FieldGroove.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
 using Microsoft.AspNetCore.Authorization;
-using FieldGroove.Api.Interfaces;
 
 namespace FieldGroove.Api.Controllers
 {

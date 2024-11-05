@@ -1,5 +1,5 @@
 ﻿using FieldGroove.Infrastructure.Data;
-using FieldGroove.Api.Interfaces;
+using FieldGroove.Application.Interfaces;
 using FieldGroove.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 

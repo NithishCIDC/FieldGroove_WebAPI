@@ -1,6 +1,6 @@
 ﻿using FieldGroove.Domain.Models;
 
-namespace FieldGroove.Api.Interfaces
+namespace FieldGroove.Application.Interfaces
 {
     public interface IUserRepository
     {

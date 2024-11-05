@@ -1,7 +1,6 @@
 using FieldGroove.Infrastructure.Data;
-using FieldGroove.Api.Interfaces;
+using FieldGroove.Application.Interfaces;
 using FieldGroove.Api.Repositories;
-using FieldGroove.Api.Validation;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -9,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Cryptography;
 using System.Text;
+using FieldGroove.Application.validation;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,6 +1,6 @@
-﻿using FieldGroove.Api.Interfaces;
+﻿using FieldGroove.Application.Interfaces;
+using FieldGroove.Api.JwtAuthToken;
 using FieldGroove.Domain.Models;
-using FieldGroove.Api.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FieldGroove.Api.Controllers
