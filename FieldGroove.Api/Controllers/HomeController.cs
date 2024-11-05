@@ -1,4 +1,4 @@
-﻿using FieldGroove.Api.Models;
+﻿using FieldGroove.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
 using Microsoft.AspNetCore.Authorization;

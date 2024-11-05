@@ -1,6 +1,6 @@
-﻿using FieldGroove.Api.Data;
+﻿using FieldGroove.Infrastructure.Data;
 using FieldGroove.Api.Interfaces;
-using FieldGroove.Api.Models;
+using FieldGroove.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace FieldGroove.Api.Repositories

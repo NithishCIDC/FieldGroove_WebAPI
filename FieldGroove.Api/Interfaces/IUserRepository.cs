@@ -1,5 +1,4 @@
-﻿using FieldGroove.Api.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using FieldGroove.Domain.Models;
 
 namespace FieldGroove.Api.Interfaces
 {

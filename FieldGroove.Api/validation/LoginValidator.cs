@@ -1,5 +1,5 @@
 ﻿
-using FieldGroove.Api.Models;
+using FieldGroove.Domain.Models;
 using FluentValidation;
 
 namespace FieldGroove.Api.Validation

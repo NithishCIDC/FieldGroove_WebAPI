@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FieldGroove.Api", "FieldGro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FieldGrooveApi.Test", "FieldGrooveApi.Test\FieldGrooveApi.Test.csproj", "{40D97284-68EA-47A9-9BEA-1B436E437814}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldGroove.Domain", "FieldGroove.Domain\FieldGroove.Domain.csproj", "{F8E86F35-DE26-4FC2-83E5-E586A3447010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldGroove.Infrastructure", "FieldGroove.Infrastructure\FieldGroove.Infrastructure.csproj", "{1707B36E-48D1-43EF-9C37-89185D5421EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{40D97284-68EA-47A9-9BEA-1B436E437814}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40D97284-68EA-47A9-9BEA-1B436E437814}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40D97284-68EA-47A9-9BEA-1B436E437814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E86F35-DE26-4FC2-83E5-E586A3447010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E86F35-DE26-4FC2-83E5-E586A3447010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E86F35-DE26-4FC2-83E5-E586A3447010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E86F35-DE26-4FC2-83E5-E586A3447010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1707B36E-48D1-43EF-9C37-89185D5421EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1707B36E-48D1-43EF-9C37-89185D5421EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1707B36E-48D1-43EF-9C37-89185D5421EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1707B36E-48D1-43EF-9C37-89185D5421EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

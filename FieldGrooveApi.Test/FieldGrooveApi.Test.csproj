@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FieldGroove.Api\FieldGroove.Api.csproj" />
+    <ProjectReference Include="..\FieldGroove.Domain\FieldGroove.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

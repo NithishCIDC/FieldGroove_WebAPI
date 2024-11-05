@@ -1,4 +1,4 @@
-﻿using FieldGroove.Api.Data;
+﻿using FieldGroove.Infrastructure.Data;
 using FieldGroove.Api.Interfaces;
 
 namespace FieldGroove.Api.Repositories

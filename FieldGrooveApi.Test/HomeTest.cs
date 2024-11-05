@@ -1,5 +1,5 @@
 ﻿using FieldGroove.Api.Interfaces;
-using FieldGroove.Api.Models;
+using FieldGroove.Domain.Models;
 using Moq;
 
 

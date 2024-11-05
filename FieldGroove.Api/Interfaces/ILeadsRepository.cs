@@ -1,4 +1,4 @@
-﻿using FieldGroove.Api.Models;
+﻿using FieldGroove.Domain.Models;
 
 namespace FieldGroove.Api.Interfaces
 {

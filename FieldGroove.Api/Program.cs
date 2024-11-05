@@ -1,4 +1,4 @@
-using FieldGroove.Api.Data;
+using FieldGroove.Infrastructure.Data;
 using FieldGroove.Api.Interfaces;
 using FieldGroove.Api.Repositories;
 using FieldGroove.Api.Validation;
