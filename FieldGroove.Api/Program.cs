@@ -1,14 +1,14 @@
-using FieldGroove.Infrastructure.Data;
-using FieldGroove.Infrastructure.Repositories;
+using System.Text;
+using Microsoft.EntityFrameworkCore;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using FieldGroove.Domain.Interfaces;
+using FieldGroove.Application.validation;
+using FieldGroove.Infrastructure.Data;
+using FieldGroove.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Cryptography;
-using System.Text;
-using FieldGroove.Application.validation;
-using FieldGroove.Domain.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +32,8 @@ builder.Services.AddCors(options => options.AddPolicy("policy", x => x.AllowAnyO
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+#region JWT_AUTH
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -51,6 +53,7 @@ builder.Services.AddAuthentication(options =>
        };
    });
 
+#endregion
 
 builder.Services.AddControllers();
 
